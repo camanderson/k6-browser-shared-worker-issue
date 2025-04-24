@@ -1,0 +1,20 @@
+{
+  "name": "k6-browser-shared-worker-issue",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "K6_BROWSER_HEADLESS=false K6_BROWSER_DEBUG=false k6 run k6/browser.js"
+  },
+  "dependencies": {
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.2",
+    "k6": "^0.0.0",
+    "vite": "^6.3.1"
+  }
+}
